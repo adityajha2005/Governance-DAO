@@ -16,12 +16,12 @@ export const Footer: React.FC = () => (
               </svg>
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-lg tracking-tight text-black">Decentraland</span>
+              <span className="font-bold text-lg tracking-tight text-black">Gov</span>
               <span className="text-[9px] text-cyan-600 font-semibold uppercase tracking-wider">DAO</span>
             </div>
           </div>
           <p className="text-sm text-black max-w-md leading-relaxed mb-6">
-            A decentralized autonomous organization empowering the Decentraland community to shape the future of the metaverse through transparent governance.
+            A decentralized autonomous organization empowering the Gov community to shape the future of the metaverse through transparent governance.
           </p>
           <div className="flex space-x-3">
             <a href="#" className="p-2.5 bg-white border border-black rounded-lg text-black hover:text-cyan-500 hover:border-cyan-200 hover:bg-cyan-50 transition-all">
@@ -63,7 +63,7 @@ export const Footer: React.FC = () => (
       {/* Bottom Bar */}
       <div className="pt-8 border-t border-black flex flex-col md:flex-row justify-between items-center text-black">
         <p className="text-xs font-medium mb-4 md:mb-0">
-          © 2026 Decentraland DAO. All rights reserved.
+          © 2026 Gov DAO. All rights reserved.
         </p>
         <div className="flex space-x-6 text-xs font-medium">
           <a href="#" className="hover:text-cyan-500 transition-colors">Privacy Policy</a>

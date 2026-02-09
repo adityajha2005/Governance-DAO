@@ -8,7 +8,7 @@ import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
 import { ReactNode } from 'react';
 
 const config = getDefaultConfig({
-  appName: 'Decentraland DAO',
+  appName: 'Gov DAO',
   projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || '21fef48091f12692cad574a6f7753643',
   chains: [sepolia],
   ssr: true,

@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Decentraland DAO - Governance Portal",
-  description: "Decentralized governance for the Decentraland metaverse",
+  title: "Gov DAO - Governance Portal",
+  description: "Decentralized governance for the Gov metaverse",
 };
 
 export default function RootLayout({
