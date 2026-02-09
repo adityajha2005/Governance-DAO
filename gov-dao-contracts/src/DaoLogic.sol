@@ -24,10 +24,8 @@ contract DAOGovernor is
         GovernorTimelockControl(timelock)
     {}
 
-    /* ---------- Governance Parameters ---------- */
-
     function votingDelay() public pure override returns (uint256) {
-        return 1; // blocks
+        return 1;
     }
 
     function votingPeriod() public pure override returns (uint256) {
@@ -37,8 +35,6 @@ contract DAOGovernor is
     function proposalThreshold() public pure override returns (uint256) {
         return 1_000e18;
     }
-
-    /* ---------- Required Overrides ---------- */
 
     function state(uint256 proposalId)
         public

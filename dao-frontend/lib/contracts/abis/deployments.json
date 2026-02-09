@@ -1,0 +1,26 @@
+{
+  "chainId": 11155111,
+  "network": "sepolia",
+  "contracts": {
+    "GovernanceToken": {
+      "address": "0x5D7Fa5513a42e1770cbd527d63753BF0D4cfE297",
+      "abi": "./GovernanceToken.json"
+    },
+    "DAOTimelock": {
+      "address": "0x189B1ae7b5b58Bbb55298ec030e3efaEcf445b01",
+      "abi": "./DAOTimelock.json"
+    },
+    "DAOGovernor": {
+      "address": "0xEE8824f41dfeCC37df2002312Ac5562ab048B0d2",
+      "abi": "./DAOGovernor.json"
+    },
+    "DAOTreasury": {
+      "address": "0xFb737ad5769E4a8C281339e257E5cfE552CDCB34",
+      "abi": "./DAOTreasury.json"
+    }
+  },
+  "deployment": {
+    "timestamp": "2026-02-08",
+    "deployer": "0x40E38365F2b7A07762B15F37328285bce6e3ac26"
+  }
+}

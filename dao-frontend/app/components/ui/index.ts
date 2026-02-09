@@ -4,3 +4,6 @@ export { ProposalRow } from './ProposalRow';
 export { ProjectCard } from './ProjectCard';
 export { AllocationBar } from './AllocationBar';
 export { ChartBar } from './ChartBar';
+export { WalletInfo } from './WalletInfo';
+export { DelegateSection } from './DelegateSection';
+export { CreateProposalForm } from './CreateProposalForm';
